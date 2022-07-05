@@ -36,5 +36,4 @@ for i in range(1,1000):
 
 df= pd.DataFrame(reviewlist)
 df.to_csv('review.csv')
-# with open("review_amazon.csv","w") as f:
-#      df.to_csv(f)
+
